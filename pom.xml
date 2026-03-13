@@ -8,10 +8,18 @@
     <artifactId>shop4j</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>shop-admin</module>
+        <module>shop-common</module>
+        <module>shop-bean</module>
+        <module>shop-api</module>
+        <module>shop-service</module>
+        <module>shop-security</module>
+    </modules>
 
 
     <properties>
-        <yami.shop.version>0.0.1-SNAPSHOT</yami.shop.version>
+        <yami.shop.version>${project.version}</yami.shop.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.plugin.version>3.12.0</maven.compiler.plugin.version>
@@ -167,6 +175,25 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <parameters>true</parameters>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>create-generated-annotations-dir</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <mkdir dir="${project.build.directory}/generated-sources/annotations"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
