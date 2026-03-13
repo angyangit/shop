@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1982678f-c4c0-4712-aa52-5e27b95e8a03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shop-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-bean/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1982678f-c4c0-4712-aa52-5e27b95e8a03" name="Changes" comment="环境处理">
+      <change afterPath="$PROJECT_DIR$/shop-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-bean/src/main/java/com/yami/shop/bean/model/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yami/shop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-bean/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,13 @@
     <persistenceIdMap>
       <entry key="_/Users/angyang/Documents/video/mall/standard/shop4j" value="3Aq1j7CG0KxN7yPjFpU1ESfZHaC" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,10 +44,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.shop4j [clean].executor": "Run",
+    "Maven.shop4j [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/angyang/Documents/video/mall/testcode/shop4j/shop-service",
+    "last_opened_file_path": "/Users/angyang/Documents/video/mall/testcode/shop4j/shop-admin/src/main/resources",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
@@ -53,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-admin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-security" />
       <recent name="$PROJECT_DIR$/shop-service" />
       <recent name="$PROJECT_DIR$/shop-common" />
       <recent name="$PROJECT_DIR$/shop-bean" />
-      <recent name="$PROJECT_DIR$/shop-api" />
-      <recent name="$PROJECT_DIR$/shop-admin" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -78,10 +85,31 @@
       <updated>1773305418444</updated>
       <workItem from="1773305420116" duration="2000" />
     </task>
+    <task id="LOCAL-00001" summary="环境处理">
+      <option name="closed" value="true" />
+      <created>1773392946407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773392946407</updated>
+    </task>
+    <task id="LOCAL-00002" summary="环境处理">
+      <option name="closed" value="true" />
+      <created>1773393498697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773393498697</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="环境处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="环境处理" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
