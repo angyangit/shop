@@ -5,7 +5,7 @@
     <parent>
         <artifactId>shop4j</artifactId>
         <groupId>com.yami.shop</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -21,6 +21,7 @@
             <groupId>com.yami.shop</groupId>
             <artifactId>shop-common</artifactId>
             <version>${yami.shop.version}</version>
+
         </dependency>
     </dependencies>
 </project>
